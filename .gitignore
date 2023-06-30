@@ -1,0 +1,17 @@
+datasets/
+mnist_bag/
+WSI/
+WSI_temp_files/
+simclr/runs
+simclr/all_patches.csv
+test/
+weights/
+embedder/
+test-c16/
+.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*/__pycache__/*
+__pycache__
+*.ipynb
+abmil.py
