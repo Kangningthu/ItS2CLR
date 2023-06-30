@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2210.09452-orange.svg)](https://arxiv.org/abs/2210.09452)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the official implementation of the CVPR 2023 paper "Multiple Instance Learning via Iterative Self-Paced Supervised Contrastive Learning"
+This repository contains the official implementation of the CVPR 2023 paper "[Multiple Instance Learning via Iterative Self-Paced Supervised Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Multiple_Instance_Learning_via_Iterative_Self-Paced_Supervised_Contrastive_Learning_CVPR_2023_paper.pdf)"
 
 <p align="center">
   <img src="assets/overview.png" width="400" />
@@ -50,8 +50,9 @@ For data acquisition and preprocessing, please visit [this link](https://github.
 
 
 ### Training and Evaluation
-To train the IT2SCLR model on your dataset, use the following command:
+The initial feature extractor of It2SCLR is a SimCLR pretrained Resnet18, using Camelyon16 dataset at 5x magnification. The pretrained weights can be downloaded from [here](https://drive.google.com/drive/folders/1uUaWLrrgki7IfGfiP9cN9zc1iryHhw_F?usp=sharing).
 
+To train the It2SCLR model on your dataset, use the following command:
 
 ```bash
 python run.py  \
